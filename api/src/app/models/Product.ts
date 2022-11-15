@@ -41,3 +41,11 @@ export const Product = model(
     },
   })
 );
+
+JSON.stringify([
+  {
+    name: 'Frango',
+    icon: '🍗',
+  },
+  { name: 'Catupiry', icon: '🧀' },
+]);
